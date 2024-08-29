@@ -6,11 +6,11 @@
 /*   By: moait-la <moait-la@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 06:18:32 by moait-la          #+#    #+#             */
-/*   Updated: 2024/08/28 02:24:12 by moait-la         ###   ########.fr       */
+/*   Updated: 2024/08/29 23:34:18 by moait-la         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./Includes/pipex.h"
+#include "../Includes/pipex.h"
 
 void	second_child_process(char **av, char **envp, int *fds)
 {

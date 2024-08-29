@@ -6,22 +6,11 @@
 /*   By: moait-la <moait-la@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 02:04:58 by moait-la          #+#    #+#             */
-/*   Updated: 2024/03/22 02:11:22 by moait-la         ###   ########.fr       */
+/*   Updated: 2024/08/29 23:38:19 by moait-la         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-// static char	**ft_free(char **res, int i)
-// {
-// 	while (i > 0)
-// 	{
-// 		i--;
-// 		free(res[i]);
-// 	}
-// 	free(res);
-// 	return (NULL);
-// }
 
 static int	ft_words_num(char const *s, char c)
 {

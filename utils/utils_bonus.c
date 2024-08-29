@@ -6,12 +6,12 @@
 /*   By: moait-la <moait-la@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/19 01:17:54 by moait-la          #+#    #+#             */
-/*   Updated: 2024/03/25 00:24:28 by moait-la         ###   ########.fr       */
+/*   Updated: 2024/08/29 23:32:16 by moait-la         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./Includes/pipex.h"
-#include "./libft/libft.h"
+#include "../Includes/pipex.h"
+#include "../libft/libft.h"
 
 void	ft_free(char **ptr)
 {

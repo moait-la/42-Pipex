@@ -6,12 +6,12 @@
 /*   By: moait-la <moait-la@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 06:18:29 by moait-la          #+#    #+#             */
-/*   Updated: 2024/07/22 01:58:58 by moait-la         ###   ########.fr       */
+/*   Updated: 2024/08/29 23:34:24 by moait-la         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./Includes/pipex.h"
-#include "./get_next_line/get_next_line.h"
+#include "../Includes/pipex.h"
+#include "../get_next_line/get_next_line.h"
 
 void	last_command(int ac, char **av, char **envp, int childp_nbr)
 {

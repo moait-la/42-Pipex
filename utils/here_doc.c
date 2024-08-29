@@ -6,11 +6,11 @@
 /*   By: moait-la <moait-la@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 22:37:16 by moait-la          #+#    #+#             */
-/*   Updated: 2024/03/26 07:52:36 by moait-la         ###   ########.fr       */
+/*   Updated: 2024/08/29 23:35:16 by moait-la         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./Includes/pipex.h"
+#include "../Includes/pipex.h"
 
 static void	read_from_stdin(char **av)
 {

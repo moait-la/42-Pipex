@@ -1,6 +1,8 @@
-SRCS = ./pipex.c ./utils.c
-BONUS_SRCS = ./pipex_bonus.c ./utils_bonus.c ./get_next_line/get_next_line.c ./get_next_line/get_next_line_utils.c \
-			./here_doc.c
+
+SRCS = ./project/pipex.c ./utils/utils.c
+
+BONUS_SRCS = ./project/pipex_bonus.c ./utils/utils_bonus.c ./get_next_line/get_next_line.c \
+				./get_next_line/get_next_line_utils.c ./utils/here_doc.c
 
 OBJ = ${SRCS:.c=.o}
 BONUS_OBJ = ${BONUS_SRCS:.c=.o}

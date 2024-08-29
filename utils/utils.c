@@ -6,14 +6,20 @@
 /*   By: moait-la <moait-la@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 06:18:35 by moait-la          #+#    #+#             */
-/*   Updated: 2024/07/21 06:24:38 by moait-la         ###   ########.fr       */
+/*   Updated: 2024/08/29 23:39:52 by moait-la         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./Includes/pipex.h"
-#include "./libft/libft.h"
+#include "../Includes/pipex.h"
+#include "../libft/libft.h"
 
-
+void	ft_free(char **res)
+{
+	int i = -1;
+	while (res[++i])
+		free(res[i]);
+	free(res);
+}
 
 char	*ft_getenv(char **envp)
 {
